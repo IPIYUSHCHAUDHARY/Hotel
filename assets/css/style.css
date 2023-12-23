@@ -384,16 +384,13 @@ a:hover {
     height: 36px;
 }
 
-#reserv-btn {
+.reserv-btn {
     background-color: #b99652;
 }
 
-#reserv-btn:hover {
+.reserv-btn:hover {
     background-color: transparent;
     border: 1px solid #b99652;
-}
-
-#reserv-btn:hover a {
     text-decoration: none;
     color: #b99652;
 }
@@ -590,7 +587,7 @@ section.wave-blue:after {
     bottom: -60px;
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 575.98px) {
     @-webkit-keyframes wave {
         0% {
             -webkit-transform: rotateZ(0) translate3d(0, 10%, 0) rotateZ(0);
@@ -734,7 +731,7 @@ section.wave-blue:after {
 
 /*-*-*-**-*   Tablets  -*-*-*-*-*/
 
-@media only screen and (max-width: 768px) and (min-width: 576px) {
+@media only screen and (max-width: 767.98px) and (min-width: 576px) {
     body {
         font-size: 16px;
     }
@@ -813,7 +810,7 @@ section.wave-blue:after {
 
 /*-*-*-**-*   Medium  -*-*-*-*-*/
 
-@media only screen and (max-width: 1024px) and (min-width: 768px) {
+@media only screen and (max-width: 1023.98px) and (min-width: 768px) {
     body {
         font-size: 16px;
     }
@@ -840,13 +837,6 @@ section.wave-blue:after {
         position: absolute;
         top: -28px;
         right: 250px;
-    }
-}
-
-@media (min-width: 992px) {
-    .reservation input,
-    .reservation select {
-        width: 130%;
     }
 }
 
